@@ -47,6 +47,12 @@ class BarberShopsController < ApplicationController
     head :no_content
   end
 
+
+#curl -H "Content-Type:application/json; charset=utf-8" -d '{"todo":{"title":"something to do","order":1,"completed":false}}'
+###ht@p://localhost:3000/todos
+# BarberShop name:string address:string number:integer picture:string description:string status:boolean rating:integer
+
+
   private
 
     def set_barber_shop

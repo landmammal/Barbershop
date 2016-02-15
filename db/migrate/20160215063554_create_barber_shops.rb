@@ -3,7 +3,7 @@ class CreateBarberShops < ActiveRecord::Migration
     create_table :barber_shops do |t|
       t.string :name
       t.string :address
-      t.integer :number
+      t.integer :number, :limit => 8 
       t.string :picture
       t.string :description
       t.boolean :status
