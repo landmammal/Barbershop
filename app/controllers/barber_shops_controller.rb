@@ -6,7 +6,9 @@ class BarberShopsController < ApplicationController
   def index
     @barber_shops = BarberShop.all
 
-    render json: @barber_shops
+
+
+    # render json: @barber_shops
   end
 
   # GET /barber_shops/1
